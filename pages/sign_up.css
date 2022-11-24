@@ -1,0 +1,23 @@
+fieldset{
+    background-color: pink;
+
+}
+/*we can use comma for style multiple tags the sam way */
+input{
+    background-color:lightgoldenrodyellow;
+}
+
+label{
+    color: darkblue
+    font-weight  
+
+}
+.lan{
+    color:green;
+
+
+}
+legend{
+    color:red;
+    font-size:1.5em
+}

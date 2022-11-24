@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+   
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="sign_up.css"/>
+    </head>
+    <body>
+        <!--../is used to go parent level
+            Below-->
+        <a href="../index.html">HOME</a>
+        <h1>Please Complete the sign up form </h1>
+
+   <!-- CREATING SIGN UP FROM -->
+
+   <from>
+    <fieldset>
+        <legend>Open an account</legend>
+    <label>Full Name: </label> <br>
+    <input type="text" placeholder="enter your name"/> <br><br>
+    <label>Username: </label> <br>
+    <input type="textbox" placeholder="enter your username" /><br><br>
+    <label>password: </label> <br>
+    <input type="password" placeholder="enter your password" /><br><br>
+    <label>Re-type Password :</label><br>
+    <input type="password" placeholder="enter your password" /><br><br>
+    <label>Email:</label> <br>
+    <input type="email"placeholder="enter your email"/><br><br>
+
+<!-- NOTE:CHECKBOX ELEMENTS MAY OR MAY NOT HAVE SAME ATTRIBUTER
+CHECKBOX IS MULTI SELECT-->
+
+    <label>Languages: </label> <br>
+
+    <input type="checkbox" name="english"/>
+    <label class="lan">English</label> <br>
+    <input type="checkbox" name="spanish"/>
+    <label class="lan">Spanish</label> <br>
+    <input type="checkbox" name="french"/>
+    <label class="lan">French</label> <br><br>
+
+
+
+
+    <!-- NOTE:RADIO ELEMENts should have the same name attributes
+-->
+    <label>Gender : </label> <br>
+    <input type ="radio" name="gender"/> 
+    <label class="lan">Male</label> <br>
+    <input type ="radio" name="gender"/> 
+    <label class="lan ">Female</label> <br>
+    <input type ="radio" name="gender"/> 
+    <label class="lan">Others</label> <br><br>
+
+  <label>select Your Birthday :</label>
+  <input type="date" /> <br>
+  <label>select Your Birthday :</label>
+  <input type="datetime-local"/> <br><br>
+
+
+<!-- dropdown:select tag is used to create a dropdown-->
+
+  <label>Country</label>
+<select>
+    <option selected>--None--</option>
+    <option value="Netherlands">Netherlands</option>
+    <option value="USA">USA</option>
+    <option value="Taiwan">Taiwan</option>
+    <option value="Turkiye">Turkiye</option>
+
+</select>
+
+<br><br>
+
+<!--Color input-->
+<label>Select Your Color: </label>
+<input type="color" /> <br> <br>
+
+<!--file-->
+<label>Upload a file: </label> <br>
+<input type="file" /> <br> <br>
+
+<!-- textarea -->
+<label>Description : </label> <br>
+<textarea rows="10" cols="30" placeholder="How was your day?" ></textarea>
+<br><br>
+
+<!---- buttons-->
+<input type="submit" value="Click Me!" /> <br>
+<button>Click mee!!<buttom>
+
+</fieldset>
+
+</from>
+
+
+
+
+
+  </body>
+    
+</html>
